@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="images/png" href="../Images/PNG/Wikipedia logo.png">
+  <title>Arroceros Urban Forest Park - Wikipedia</title>
+</head>
+
+<body>
+  <header class="hero">
+    <nav>
+      <i class="fa fa-bars" onclick="toggleMenuA()"></i>
+      <div class="sub-menu-wrap-1" id="subMenuA">
+        <div class="sub-menu-1">
+          <p class="user-info-1">
+            Main menu<span>[<a href="">move to sidebar</a>]</span>
+          </p>
+          <a href="#" class="user-info-1">Main page</a>
+          <a href="#" class="user-info-1">Contents</a>
+          <a href="#" class="user-info-1">Current events</a>
+          <a href="#" class="user-info-1">Random article</a>
+          <a href="#" class="user-info-1">About Wikipedia</a>
+          <a href="#" class="user-info-1">Contact us</a>
+          <a href="#" class="user-info-1">Donate</a>
+          <p class="user-info-1">Contribute</p>
+          <a href="#" class="user-info-1">Help</a>
+          <a href="#" class="user-info-1">Learn to edit</a>
+          <a href="#" class="user-info-1">Community portal</a>
+          <a href="#" class="user-info-1">Recent changes</a>
+          <a href="#" class="user-info-1">Upload file</a>
+          <p class="user-info-1">Language</p>
+          <p class="user-info-1 background">Language links are at the top of the page across from the title.</p>
+        </div>
+      </div>
+
+      <div class="wiki">
+        <img class="wiki-logo" src="../Images/PNG/wikipedia.png" alt="Wikipedia Logo">
+        <div class="wikipedia">
+          <img class="wiki-wordmark" src="../Images/SVG/Wikipedia Wordmark.svg" alt="Wikipedia Wordmark">
+          <img class="wiki-tag" src="../Images/SVG/wikipedia-tagline-en.svg" alt="Wikipedia tagline">
+        </div>
+      </div>
+      <form>
+        <img class="search-logo" src="../Images/PNG/search.png" alt="Search Icon">
+        <input type="text" placeholder="Search Wikipedia">
+        <button>Search</button>
+      </form>
+
+      <ul class="account-login">
+        <li><a class="account" href="#">Create account</a></li>
+        <li><a class="log-in" href="#">Log in</a></li>
+      </ul>
+
+      <i class="fa fa-ellipsis" onclick="toggleMenu()"></i>
+      <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+          <p class="user-info">
+            Pages for logged out<span>editors <a href="#">(learn more)</a></span>
+          </p>
+          <a href="#" class="user-info">Contribution</a>
+          <a href="#" class="user-info">Talk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="ads">
+      <img src="../Images/WEBP/WLE Austria Logo local.webp" alt="WLE Austria Logo">
+      <div class="ads-wiki">
+        <a class="wiki-earth" href="">Wiki Loves Earth:</a>
+        <a class="wiki-upload" href="">Upload photo of natural heritage sites in the Philipines to help Wikipedia and
+          win
+          amazing prizes!</a>
+      </div>
+      <i class="fa-regular fa-circle-xmark"></i>
+    </div>
+    <section class="info">
+
+    </section>
+    <section class="history">
+
+    </section>
+    <section class="description">
+
+    </section>
+    <section class="accessibility">
+
+    </section>
+    <section class="gallery">
+
+    </section>
+    <section class="references">
+
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+
+  <script>
+    let subMenu = document.getElementById("subMenu")
+
+    function toggleMenu() {
+      subMenu.classList.toggle("open-menu")
+    }
+
+    let subMenuA = document.getElementById("subMenuA")
+
+    function toggleMenuA() {
+      subMenuA.classList.toggle("open-menu-1")
+    }
+  </script>
+
+</body>
+
+</html>
