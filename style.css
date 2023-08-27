@@ -357,3 +357,20 @@ div p {
     width: 220px;
 }
 /* Gallery/css - Hugh */
+
+/* Description/css - Merjie */
+a {
+    text-decoration: none;
+ }
+
+ body {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Two columns, first is 1 fraction, second is 3 fractions */
+    grid-gap: 20px; /* Gap between grid items */     
+ }
+
+ main {
+    grid-area: main;
+    background-color: #fff;
+    padding: 20px;
+ }
